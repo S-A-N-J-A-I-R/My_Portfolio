@@ -1,0 +1,208 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.hero{
+    position:transparent;
+    width:100%;
+    height:100vh;
+    background:white;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    margin: none;
+    align-items: center;
+    justify-content: space-between; 
+    background: skyblue;   
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+}
+
+a{
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.home{
+    margin: 18%;
+}
+
+.home h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color:orange;
+}
+
+.home a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.home p{
+    color: #555;
+    line-height: 22px;
+}
+
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 300px;    
+}
+
+.image img{
+    height: 100%;
+    position: absolute;
+    left:50%;
+    bottom:0;
+    transform: translateX(-35);
+    transition: bottom 1s, left 1s;
+}
+
+.image:hover .shape{
+    bottom: 40px;
+}
+
+.image .shape{
+    top: 150px;
+}
+
+.image .photo{
+    right:100px;
+}
+
+.image:hover .photo{
+    left: 45%;
+}
+
+.about{
+    margin:18%;
+}
+
+.about h1{
+    color:orange;
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about p{
+    color: #555;
+    line-height: 22px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.services{
+    margin: 18%;
+}
+
+.services h1{
+    color: orange;
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.services .skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services .skill {
+    margin-bottom: 10px;
+}
+
+.services .skill-name {
+    font-weight: bold;
+}
+
+.services .skill-bar {
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.services .skill-progress {
+    height: 100%;
+    width: 70%; /* Adjust the width based on your proficiency percentage */
+    background-color: #4CAF50;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+}
+
+.services li{
+    margin: 6%;
+}
+
+.contact{
+    margin: 18%;
+    margin-left: 22%;
+}
+
+.contact h1{
+    color: orange;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
